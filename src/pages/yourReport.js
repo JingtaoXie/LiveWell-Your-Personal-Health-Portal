@@ -33,17 +33,10 @@ const YourReport = () => {
     const [fileName, setFileName] = useState();
 
     AV.init({
-        appId: "93Qe7j4J4hd9DF6H8vG0d36a-gzGzoHsz",
-        appKey: "MfKclPpBwhsva7NPLWrjUvbu",
-        serverURL:"https://93qe7j4j.lc-cn-n1-shared.com"
-      });
-
-    
-    //   AV.init({
-    //     appId: "Ptwt58ZYseekGbBCxuinUUCm-MdYXbMMI",
-    //     appKey: "CLwL76b1hVyCxZOqhX7V1Wsm",
-    //   });
-
+            appId: "",
+            appKey: "",
+            serverURL:""
+          });
 
     const getInfo = async () => {
         try {
