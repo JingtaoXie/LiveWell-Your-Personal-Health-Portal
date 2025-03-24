@@ -1,3 +1,28 @@
+# LiveWell - Your Health Portal Website
+
+<img src="../asset/logo/Logo.png"></img>
+
+Welcome to LiveWell — your personal health companion in the digital age.
+
+LiveWell is a full-stack web platform designed to help you easily record your health data, get smart insights through analysis, and support you in making informed decisions for a healthier future. It's like having your own family doctor, right at your fingertips. I am Toby, the developer of this website, who is also a student graduated from University of Auckland. I am glad to be here and share this portal website to you.
+
+This website consists of 8 different sub pages, each of them targets to one specific function or aims. In the rest of this file, I will choose those important page to introduce.
+
+## `Basic Info Collecting and Modify Info Pages`
+
+The purpose of these two pages is clear — to help you record your personal health data. But LiveWell goes a step further. Instead of only manually entering your health information, you also have a faster, smarter option: QR code scanning.
+Just tap the middle button at the bottom of the screen, and you'll be taken to the scanning page. This feature automatically activates your device’s camera and scans the QR code you provide, making data input quick and effortless.
+
+## `Analysis and Disease Prediction Pages`
+
+In the analysis pages, you can see three algorithms that I trained for LiveWell, which are diabetes prediction algorithm, liver disease algorithm and heart disease algorithm. All these three algorithms are deep learning and neural network based. 
+
+Site: https://livewell-cn-portal-8dctd190f91ee-1309839424.ap-shanghai.app.tcloudbase.com/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
