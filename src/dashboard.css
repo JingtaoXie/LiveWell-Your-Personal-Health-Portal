@@ -1,0 +1,78 @@
+.dashboard-page {
+    min-height: 100vh;
+    background: linear-gradient(-45deg,#e3f2fd, #bbdefb, #c8e6c9, #f0f4c3);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    text-transform: none;
+  }
+
+  .bmi-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+  }
+  
+  .bmi-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; 
+    text-align: center;
+  }
+
+  .bmr-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+  }
+  
+  .bmr-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+  .bmi-popup {
+    position: absolute; 
+    top: 130%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    text-align: center; 
+    font-size: 14px; 
+    color: #333; 
+    z-index: 10; 
+}
+
+
+.bmi-popup.hidden {
+    display: none; 
+}
+  
+  
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

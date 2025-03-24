@@ -1,0 +1,16 @@
+.scanning-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: linear-gradient(-45deg,#e3f2fd, #bbdefb, #c8e6c9, #f0f4c3);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    text-transform: none;
+  }
+  
+  .scanning-window {
+    /* min-height: 50vh; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }

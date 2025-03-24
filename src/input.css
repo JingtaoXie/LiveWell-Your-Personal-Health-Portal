@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'titleFont';
+    src: url('./asset/font/BebasNeue-Regular.ttf') format('truetype');
+}
+  
+
+ @font-face {
+    font-family: 'otherFont';
+    src: url('./asset/font/RobotoSlab-Black.ttf') format('truetype');
+}
+
+#title {
+    font-family: 'titleFont';
+}
+
+#button {
+  font-family: 'titleFont';
+}
+
+body{
+    font-family: 'otherFont'; 
+}
+

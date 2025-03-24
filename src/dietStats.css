@@ -1,0 +1,19 @@
+.dietStats-page {
+    min-height: 100vh;
+    background: linear-gradient(-45deg,#e3f2fd, #bbdefb, #c8e6c9, #f0f4c3);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    text-transform: none;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
