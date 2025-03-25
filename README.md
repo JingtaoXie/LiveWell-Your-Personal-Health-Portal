@@ -1,6 +1,6 @@
 # LiveWell - Your Health Portal Website
 
-<img src="../src/asset/logo/Logo.png"></img>
+<img src="/src/asset/logo/Logo.png"></img>
 
 Welcome to LiveWell — your personal health companion in the digital age.
 
