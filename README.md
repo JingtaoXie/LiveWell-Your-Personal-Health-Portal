@@ -66,7 +66,11 @@ On this page, you can generate your health report and easily download it as a PD
 <img src="/demoscreenshot/12.png" width="500"></img>
 
 
-### Local Deployment Guidance
+# Local Deployment Guidance
+
+⚠️ Caution: If you try to deploy this project directly using the standard deployment process, it may fail. This is because several essential services are not activated by default in the source code — including the AI service from DeepSeek, the Render-based API (used for disease prediction), and the database service (which supports almost every page of the app). For now, LiveWell are using AI solution provided by DeepSeek, database solution from LeanCloud and api solution from render, if you want to deploy LiveWell on your local devices, you need to input these value in the source code properly.
+
+<img src="/demoscreenshot/7.png" width="500"></img>
 
 
 
