@@ -190,7 +190,7 @@ const HeartDiseasePrediction = () => {
 
     const heartDiseasePredictionAlgorithm = (featurelist) => {
         console.log("Sending feature list:", featurelist);
-        fetch("https://heartdiseasepredictionapi.onrender.com/predict", {
+        fetch("", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(featurelist)

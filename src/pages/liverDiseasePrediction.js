@@ -195,7 +195,7 @@ const LiverDiseasePrediction = () => {
 
     const liverDiseasePredictionAlgorithm = (featurelist) => {
         console.log("Sending feature list:", featurelist);
-        fetch("https://liverdiseasepredictionapi.onrender.com/predict", {
+        fetch("", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(featurelist)

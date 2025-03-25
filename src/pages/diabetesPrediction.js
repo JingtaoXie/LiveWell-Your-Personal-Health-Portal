@@ -194,7 +194,7 @@ const DiabetesPrediction = () => {
 
     const diabetesPredictionAlgorithm = (featurelist) => {
         console.log("Sending feature list:", featurelist);
-        fetch("https://diabetespredictionapi-hp42.onrender.com/predict", {
+        fetch("", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(featurelist)
