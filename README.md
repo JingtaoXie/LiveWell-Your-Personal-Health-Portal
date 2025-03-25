@@ -25,10 +25,16 @@ On the left side of the dashboard, you'll find two key panels:
 
 Both of these panels are powered by an AI backend, which interprets your health data and offers personalized insights.
 
+<img src="/demoscreenshot/9.png" width="200></img>
+
 
 #### `Basic Info Collecting and Modify Info Pages`
 
 The purpose of these two pages is clear — to help you record your personal health data. But LiveWell goes a step further. Instead of only manually entering your health information, you also have a faster, smarter option: QR code scanning. Just tap the middle button at the bottom of the screen, and you'll be taken to the scanning page. This feature automatically activates your device’s camera and scans the QR code you provide, making data input quick and effortless.
+
+<img src="/demoscreenshot/6.png" width="200></img>
+<img src="/demoscreenshot/11(1).png" width="200></img>
+
 
 #### `Analysis and Disease Prediction Pages`
 
