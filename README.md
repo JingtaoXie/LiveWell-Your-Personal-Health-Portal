@@ -10,7 +10,7 @@ You can access the LiveWell demo through the URL below. This version is speciall
 
 Site: https://livewell-cn-portal-8dctd190f91ee-1309839424.ap-shanghai.app.tcloudbase.com/
 
-### Function and Pages Component Introduction
+# Function and Pages Component Introduction
 
 This website is composed of 8 different subpages, each designed with a specific feature or purpose in mind. In the following sections, I will highlight and introduce the most important pages in more detail.
 
