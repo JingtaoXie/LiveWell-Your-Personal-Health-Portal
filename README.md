@@ -33,6 +33,7 @@ The purpose of these two pages is clear — to help you record your personal hea
 
 <img src="/demoscreenshot/6.png" width="500"></img>
 
+
 <img src="/demoscreenshot/11(1).png" width="500"></img>
 
 
@@ -44,8 +45,12 @@ On the analysis pages, you'll find three deep-learning-powered prediction models
 -Liver Disease Prediction
 -Heart Disease Prediction
 
-All three models are built using neural networks and trained on publicly available datasets from Kaggle. While they are capable of providing users with a probability (likelihood) of having a particular condition, there is still plenty of room for further improvement.
-Enhancing the accuracy and robustness of these models is a key part of LiveWell’s future roadmap — our goal is to deliver even more reliable and personalized health insights.
+All three models are built using neural networks and trained on publicly available datasets from Kaggle, and they are both deployed in Render (a service provider which can provide API service, based in United States). While they are capable of providing users with a probability (likelihood) of having a particular condition, there is still plenty of room for further improvement. Enhancing the accuracy and robustness of these models is a key part of LiveWell’s future roadmap — our goal is to deliver even more reliable and personalized health insights.
+
+<img src="/demoscreenshot/8.png" width="500"></img>
+
+<img src="/demoscreenshot/7.png" width="500"></img>
+
 
 #### `Your Health Report`
 
