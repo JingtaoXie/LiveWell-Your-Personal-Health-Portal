@@ -21,6 +21,7 @@ LiveWell currently focuses on analyzing health metrics related to blood, heart, 
 On the left side of the dashboard, you'll find two key panels:
 
 -Health Problem Analysis
+
 -AI-Powered Health Suggestions
 
 Both of these panels are powered by an AI backend, which interprets your health data and offers personalized insights.
@@ -33,16 +34,22 @@ The purpose of these two pages is clear — to help you record your personal hea
 
 <img src="/demoscreenshot/6.png" width="500"></img>
 
-
 <img src="/demoscreenshot/11(1).png" width="500"></img>
 
+#### `Diets Assitant`
+
+The Diet Assistant is an integrated tool designed to help users log their meals and physical activities, while estimating their daily energy surplus. Similar to the Dashboard, the calculation here is powered by DeepSeek and should be considered as an estimation rather than an exact result. In addition, the Diet Assistant allows users to track their diet and exercise milestones, making it easy to review their past habits and progress at any time.
+
+<img src="/demoscreenshot/10.png" width="500"></img>
 
 #### `Analysis and Disease Prediction Pages`
 
 On the analysis pages, you'll find three deep-learning-powered prediction models developed for LiveWell:
 
 -Diabetes Prediction
+
 -Liver Disease Prediction
+
 -Heart Disease Prediction
 
 All three models are built using neural networks and trained on publicly available datasets from Kaggle, and they are both deployed in Render (a service provider which can provide API service, based in United States). While they are capable of providing users with a probability (likelihood) of having a particular condition, there is still plenty of room for further improvement. Enhancing the accuracy and robustness of these models is a key part of LiveWell’s future roadmap — our goal is to deliver even more reliable and personalized health insights.
@@ -55,6 +62,8 @@ All three models are built using neural networks and trained on publicly availab
 #### `Your Health Report`
 
 On this page, you can generate your health report and easily download it as a PDF file.
+
+<img src="/demoscreenshot/12.png" width="500"></img>
 
 
 ### Local Deployment Guidance
