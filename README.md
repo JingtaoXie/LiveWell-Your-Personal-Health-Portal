@@ -54,6 +54,10 @@ On the analysis pages, you'll find three deep-learning-powered prediction models
 
 All three models are built using neural networks and trained on publicly available datasets from Kaggle, and they are both deployed in Render (a service provider which can provide API service, based in United States). While they are capable of providing users with a probability (likelihood) of having a particular condition, there is still plenty of room for further improvement. Enhancing the accuracy and robustness of these models is a key part of LiveWell’s future roadmap — our goal is to deliver even more reliable and personalized health insights.
 
+⚠️ Caution:
+Since the backend API is hosted on Render.com under the free tier, there might be a cold start delay of around 60 to 120 seconds when the server is inactive for a while.
+If the prediction request doesn’t respond immediately, please be patient and try clicking the button again after a short wait.
+
 <img src="/demoscreenshot/8.png" width="500"></img>
 
 <img src="/demoscreenshot/7.png" width="500"></img>
@@ -68,20 +72,30 @@ On this page, you can generate your health report and easily download it as a PD
 
 # Local Deployment Guidance
 
-⚠️ Caution: If you try to deploy this project directly using the standard deployment process, it may fail. This is because several essential services are not activated by default in the source code — including the AI service from DeepSeek, the Render-based API (used for disease prediction), and the database service (which supports almost every page of the app). For now, LiveWell are using AI solution provided by DeepSeek, database solution from LeanCloud and api solution from render, if you want to deploy LiveWell on your local devices, you need to input these value in the source code properly.
+### ⚠️ Caution: If you try to deploy this project directly using the standard deployment process, it may fail. This is because several essential services are not activated by default in the source code — including the AI service from DeepSeek, the Render-based API (used for disease prediction), and the database service (which supports almost every page of the app). For now, LiveWell are using AI solution provided by DeepSeek, database solution from LeanCloud and api solution from render, if you want to deploy LiveWell on your local devices and using the same solutions just like I did, you need to input these value in the source code properly.
 
-<img src="/demoscreenshot/7.png" width="500"></img>
+<img src="/demoscreenshot/1.png" width="500"></img>
 
+<img src="/demoscreenshot/2.png" width="500"></img>
 
+<img src="/demoscreenshot/4.png" width="500"></img>
 
+<img src="/demoscreenshot/13.png" width="500"></img>
 
+For all the features mentioned above, make sure to correctly configure the App ID, App Key, and API URL provided by LeanCloud, DeepSeek, and Render. If you're unsure how to set them up, please refer to the official documentation of each service for guidance. 
 
+To make LiveWell more accessible to everyone, I’ve also included an alternative deployment option using Google Firebase, which is significantly easier to set up on your own. Firebase provides an all-in-one, user-friendly backend solution—handling database, API, and even AI services—which simplifies the entire deployment process. In the source code, you’ll also find a commented-out sample function that demonstrates how to integrate Firebase into your local setup. This can serve as a helpful reference if you prefer to deploy LiveWell using Firebase instead.
 
+<img src="/demoscreenshot/3.png" width="500"></img>
 
+If you need guidance, feel free to visit the Google Firebase website and check out their official documentation — it's clear and beginner-friendly.
 
-# Getting Started with Create React App
+### 🛠️ You Can Also Use Your Own Backend Solution!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LiveWell is flexible — you're welcome to use your own preferred backend services instead of Firebase or the default ones like LeanCloud, DeepSeek, or Render. However, doing so may require some code refactoring to ensure compatibility with your setup.
+
+### 🚀 Once everything is configured
+After filling in all the required values (like App ID, API keys, and service URLs), you can deploy the project using any standard method for React-based applications (e.g., Vite, CRA, or static hosting platforms like Vercel, Netlify, or Tencent Cloud). Below is the guidance:
 
 ## Available Scripts
 
