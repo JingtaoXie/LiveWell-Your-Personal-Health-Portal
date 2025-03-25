@@ -72,7 +72,8 @@ On this page, you can generate your health report and easily download it as a PD
 
 # Local Deployment Guidance
 
-### ⚠️ Caution: If you try to deploy this project directly using the standard deployment process, it may fail. This is because several essential services are not activated by default in the source code — including the AI service from DeepSeek, the Render-based API (used for disease prediction), and the database service (which supports almost every page of the app). For now, LiveWell are using AI solution provided by DeepSeek, database solution from LeanCloud and api solution from render, if you want to deploy LiveWell on your local devices and using the same solutions just like I did, you need to input these value in the source code properly.
+### ⚠️ Caution: 
+If you try to deploy this project directly using the standard deployment process, it may fail. This is because several essential services are not activated by default in the source code — including the AI service from DeepSeek, the Render-based API (used for disease prediction), and the database service (which supports almost every page of the app). For now, LiveWell are using AI solution provided by DeepSeek, database solution from LeanCloud and api solution from render, if you want to deploy LiveWell on your local devices and using the same solutions just like I did, you need to input these value in the source code properly.
 
 <img src="/demoscreenshot/1.png" width="500"></img>
 
@@ -97,11 +98,11 @@ LiveWell is flexible — you're welcome to use your own preferred backend servic
 ### 🚀 Once everything is configured
 After filling in all the required values (like App ID, API keys, and service URLs), you can deploy the project using any standard method for React-based applications (e.g., Vite, CRA, or static hosting platforms like Vercel, Netlify, or Tencent Cloud). Below is the guidance:
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -109,12 +110,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -124,7 +125,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -134,32 +135,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+#### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+#### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
